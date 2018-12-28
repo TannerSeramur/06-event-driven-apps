@@ -7,7 +7,7 @@
 
 ### Links and Resources
 * [repo](https://github.com/TannerSeramur/06-event-driven-apps)
-* [travis](http://xyz.com)
+* [travis](https://www.travis-ci.com/TannerSeramur/06-event-driven-apps/jobs/167428895)
 
 
 ### Modules
