@@ -1,42 +1,23 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## 06-event-driven-apps
 
-### Author: Student/Group Name
+### Author: Tanner Seramur
 
 ### Links and Resources
-* [repo](http://xyz.com)
+* [repo](https://github.com/TannerSeramur/06-event-driven-apps)
 * [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+
 
 ### Modules
-#### `modulename.js`
+#### `util`
+#### `fs`
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `const alterFile = (file) =>`
+* Takes in a txt file and transforms all the string to all upper case
 
-###### `bar(array) -> array`
-Usage Notes or examples
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
-
-#### UML
-Link to an image of the UML for your application and response to events
+### About This Lab
+In this lab we were givin a function called `alterFile` and we had to promisify it and change out any console logs to event listeners using `EventEmitter`. We also modulorized all of the events so we are able to use them in any js file. 
