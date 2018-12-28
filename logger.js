@@ -1,19 +1,23 @@
 'use strict';
 const {saved,error} = require('./events');
 
-saved.on('saved', savedd);
+const logger = module.exports = exports = {};
 
-
-error.on('error', errorr);
-
-  function savedd(file){
-    console.log(`${file} saved`);
-    return `saved`;
-  }
-  function errorr(err){
-    console.error(`whoops! we have a error: ${err}`);
+  logger.saved = (payload) => {
+    if(payload){
+      console.log(`File Saved ${payload}`); 
+    }
   }
 
-module.exports = {saved, error};
+  logger.err = (payload) => {
+    if(payload){
+      throw new Error(payload);
+    }
+  }
+
+  saved.on('saved', logger.saved);
+  error.on('error', logger.err);
+
+
 
 

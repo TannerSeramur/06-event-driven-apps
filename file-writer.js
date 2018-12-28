@@ -21,3 +21,7 @@ let file = process.argv.slice(2).shift();
 alterFile(file);
 
 module.exports = alterFile;
+
+
+
+
