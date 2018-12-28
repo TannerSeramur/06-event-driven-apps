@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1546023172946" clover="3.2.0">
-  <project timestamp="1546023172946" name="All files">
+<coverage generated="1546023769984" clover="3.2.0">
+  <project timestamp="1546023769984" name="All files">
     <metrics statements="28" coveredstatements="22" conditionals="4" coveredconditionals="2" methods="6" coveredmethods="2" elements="38" coveredelements="26" complexity="0" loc="28" ncloc="28" packages="1" files="3" classes="3">
       <file name="events.js" path="/Users/TannerSeramur/CodeFellows/401/labs/06-event-driven-apps/events.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -30,14 +30,14 @@
         <metrics statements="10" coveredstatements="8" conditionals="4" coveredconditionals="2" methods="2" coveredmethods="1"/>
         <line num="2" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
-        <line num="20" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
       </file>
     </metrics>
   </project>
